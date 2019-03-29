@@ -67,6 +67,14 @@ function addTheAwardToTheEmployee(obj, name, sum) {
 //alert(addTheAwardToTheEmployee(salaries, 'Дмитрий', 3000));
 
 
+//Анонимная функция, замыкание
+  function sum(a){
+    return function(b){
+      return a+b;
+    }
+  }
+alert(sum(1)(2));
+
 
 //Игра в загадки
 var a = 0;
